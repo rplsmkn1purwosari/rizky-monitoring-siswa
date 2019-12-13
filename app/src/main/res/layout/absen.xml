@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/arrow_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/arrow_back"
+            android:padding="10dp"
+            android:text="Absen Harian"
+            android:textAlignment="viewEnd"/>
+
+    <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12 Agustus 2019"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/arrow_back"/>
+
+    <TextView
+            android:id="@+id/school"
+            android:layout_below="@id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go School"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"/>
+
+    <TextView
+            android:id="@+id/home"
+            android:layout_below="@id/tanggal"
+            android:layout_toRightOf="@id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Home"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"/>
+
+    <TextView
+            android:id="@+id/jam"
+            android:layout_below="@id/school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06:32 WIB"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+    <TextView
+            android:layout_below="@id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum Pulang"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/jam"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_school"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SMKN 1 PURWOSARI"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:background="#E056FD"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

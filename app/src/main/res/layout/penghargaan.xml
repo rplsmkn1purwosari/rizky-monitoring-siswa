@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/arrow_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/arrow_back"
+            android:padding="10dp"
+            android:text="Penghargaan"
+            android:textAlignment="viewEnd"/>
+
+    <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 Penghargaan Siswa"
+            android:textSize="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/arrow_back"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+                android:id="@+id/penghargaan_1"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/card"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp">
+
+            <View
+                    android:id="@+id/circle_1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/circle"
+                    android:layout_margin="20dp"/>
+
+            <TextView
+                    android:id="@+id/title_1"
+                    android:layout_toRightOf="@id/circle_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lomba Kompetensi Siswa Jawa Timur"
+                    android:textSize="17dp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_below="@id/title_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 Agustus 2019"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="60dp"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_below="@id/penghargaan_1"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/card"
+                android:layout_centerHorizontal="true">
+
+            <View
+                    android:id="@+id/circle"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/circle"
+                    android:layout_margin="20dp"/>
+
+            <TextView
+                    android:id="@+id/title"
+                    android:layout_toRightOf="@id/circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lomba Kompetensi Siswa Jawa Timur"
+                    android:textSize="17dp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_below="@id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 Agustus 2019"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="60dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SMKN 1 PURWOSARI"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:background="#E056FD"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
